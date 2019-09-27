@@ -1,0 +1,37 @@
+- 1 task per portal per action
+    - create(jobsdb)
+    - create(linkedin)
+    - create(jobstreet)
+    - update(jobsdb)
+    - update(linkedin)
+    - update(jobstreet)
+    - delete(jobsdb)
+    - delete(linkedin)
+    - delete(jobstreet)
+
+- HR can specify different job description/requirements for different portals
+    - e.g. linkedin has better applicants, so be more specific
+    - e.g. jobstreet has more applicants but less quality applicants, so do something else
+
+- manual syncing or auto syncing
+
+- when viewing the job in internal dashboard, what details needed with regards to external portals
+    - when was it last synced
+    - how many applicants
+    - how many good applicants
+    - chart of when we received submissions​
+
+- not all jobs are posted to all portals
+    - certain jobs only posted to a subset of portals
+
+- sometimes job is only open internally (for a fixed time), then published externally
+
+- admin can set daily/weekly sync schedule
+
+- syncing only happens 5 minutes after update, give admin the chance to cancel the syncing if there are mitstakes
+
+​- maintenance monitoring
+    - sysadmin needs to know how many syncs happened per day
+    - if any failed syncing, how many retries do we do?
+    - if we got blacklisted, a lot of failed syncing attempts, get notified
+
